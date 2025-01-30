@@ -4,13 +4,13 @@ import "./index.css";
 
 import { BrowserRouter, Route, Routes } from "react-router";
 import HomePage from "./pages/HomePage";
-import Service from "./pages/Service";
+import Services from "./pages/Services";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <Routes  >
         <Route index element={<HomePage />} />
-        <Route path="about" element={<Service />} />
+        <Route path="services" element={<Services />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
