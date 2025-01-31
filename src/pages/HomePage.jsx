@@ -2,6 +2,7 @@ import React from "react";
 import SerctionOverview from "../components/Shared/SerctionOverview";
 import SectionCard from "../components/Shared/SectionCard";
 import Philosophy from "../components/Homepage/Philosophy";
+import FinanceCarousel from "../components/Homepage/FinanceCarousel";
 
 export default function HomePage() {
   return (
@@ -34,6 +35,8 @@ export default function HomePage() {
           disc="We seamlessly combine cutting-edge technologies, resulting in an unparalleled fintech experience for financial institutions."  bg='#F8FCFF'
         />
       </div>
+
+     <div className="max-w-[1200px] mx-auto overflow-hidden "> <FinanceCarousel/></div>
     </div>
   );
 }
